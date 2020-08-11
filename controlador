@@ -33,6 +33,7 @@ function guardarRegistro(){
     document.getElementById('img-correo').style.display='none';
     document.getElementById('img-mostrar').style.display='none';
     document.getElementById('img-candado').style.display='none';
+    document.getElementById('terminos-mod').style.display = 'block';
     let registro ={
         nombre: document.getElementById('nombre').value,
         correo: document.getElementById('correo').value,
@@ -143,21 +144,24 @@ var repartidores = [
         titulo: 'Repartidores',
         texto: 'Solo las horas que quieras',
         parrafo: 'Sé tu propio jefe. Flexibilidad de horarios, ingresos competitivos y la oportunidad de conocer tu ciudad repartiendo al aire libre. Regístrate y en menos de 24 h colabora con nosotros.',
-        boton: 'Reparte con nosotros'
+        boton: 'Reparte con nosotros',
+        enlace: 'Pagina_repartidores/repartir.html'
     },
     {
         imagen: 'img/socio.webp',
         titulo: 'Establecimientos asociados',
         texto: 'Conoce a tus nuevos clientes',
         parrafo: 'Potencia tu negocio al convertirte en un socio y aprovechar las herramientas, la tecnología y la base de clientes que llevan toda una ciudad a tu puerta.',
-        boton: 'Colabora con nosotros'
+        boton: 'Colabora con nosotros',
+        enlace: ''
     },
     {
         imagen: 'img/carreras.webp',
         titulo: 'Carreras',
         texto: 'Un reto a la altura de tu talento',
         parrafo: 'Estamos haciendo olas en un espacio competitivo. Eso requiere empuje, corazón y mucho trabajo en equipo. ¿Listo para saltar?',
-        boton: 'Únete al equipo'
+        boton: 'Únete al equipo',
+        enlace: ''
     }
 ];
 
@@ -207,7 +211,7 @@ function generarRepartidores() {
             <h5 class="card-title">${repar.titulo}</h5>
             <p id="repar-text" >${repar.texto}</p>
             <p class="card-text">${repar.parrafo}</p>
-            <a href="#" class="btn btn-primary">${repar.boton}</a>
+            <a href="${repar.enlace}" class="btn btn-primary">${repar.boton}</a>
           </div>
         </div>
 
@@ -218,32 +222,39 @@ generarRepartidores();
 
 function buscar() {
     document.getElementById('parrafo').innerHTML =
-    `<div class="input-buscar">
+    `<div id="cerrrar" class="input-buscar">
         <form class="container">
             <span id="lupa-input">
-                <img style="margin-top: -15px;" src="img/search.svg" alt="">
+                <img style="margin-top: 25px; background-color: red;" src="img/search.svg" alt="">
             </span>
             
             <input class="input-busqueda" type="text" placeholder="Búsqueda">
             
-            <img style="position: absolute; margin: auto; width: 38px;" onclick="cerrar()" src="img/cerrar.svg" alt="">
+            <img style="position: absolute; margin-left: 870px; width: 38px;" onclick="cerrar()" src="img/cerrar.svg" alt="">
         </form>
   </div>`;
-    document.getElementById('boton-1').style.display = 'none';
-    document.getElementById('boton-2').style.display = 'none';
+   
     
     console.log('usted busca');
+    document.getElementById('porfa').style.marginLeft = '-250px';
+    document.getElementById('porfa').style.marginTop = '190px';
+    
+    
 }
 function cerrar(){
-    document.getElementById('boton-1').style.display = 'block ';
-    document.getElementById('boton-2').style.display = 'block';
-    document.getElementById('parrafo').style.display='none';
+    
+    document.getElementById('cerrrar').style.display = 'none';
+    document.getElementById('porfa').style.marginLeft = '750px';
+    document.getElementById('porfa').style.marginTop = '25px';
     
     console.log('usted cerro')
 }
 
 function iniciarSesion(){
     $('#registrar').modal('show');
+    document.getElementById('nombre').value = null;
+    document.getElementById('correo').value = null;
+    document.getElementById('contrasena').value = null;
     document.getElementById('boton-3').style.display='';
     document.getElementById('Iniciar-email').style.display='';
     document.getElementById('face-boton').style.display='';
@@ -254,7 +265,7 @@ function iniciarSesion(){
     document.getElementById('img-mostrar').style.display='';
     document.getElementById('img-candado').style.display='';
 
-    document.getElementById('img-correo').value=null;
+    
 
     document.getElementById('registrarLabel').style.display='none';
     document.getElementById('nueva-modal').style.display='block';
@@ -265,9 +276,13 @@ function iniciarSesion(){
     document.getElementById('nuevo').style.display='block';
     document.getElementById('boton-3').style.display='none';
     document.getElementById('Iniciar-email').style.display='block';
+    document.getElementById('terminos-mod').style.display = 'none';
 }
 function registrarMod(){
     $('#registrar').modal('show');
+    document.getElementById('nombre').value = null;
+    document.getElementById('correo').value = null; 
+    document.getElementById('contrasena').value = null;
     document.getElementById('registrarLabel').style.display='';
     document.getElementById('nueva-modal').style.display='';
     document.getElementById('div-nombre').style.display='';
@@ -285,6 +300,7 @@ function registrarMod(){
     document.getElementById('img-correo').style.display='';
     document.getElementById('img-mostrar').style.display='';
     document.getElementById('img-candado').style.display='';
+    document.getElementById('terminos-mod').style.display = '';
 
 
     document.getElementById('registrarLabel').style.display='block';
@@ -293,6 +309,7 @@ function registrarMod(){
     document.getElementById('nuevo').style.display='none';
     document.getElementById('boton-3').style.display='block';
     document.getElementById('Iniciar-email').style.display='none';
+    document.getElementById('terminos-mod').style.display = 'none';
 }
 
 function modalContraseña(){
