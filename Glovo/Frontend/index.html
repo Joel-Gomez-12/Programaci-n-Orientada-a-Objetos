@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida a domicilio y más. !Tú pide, ya vamos nosotros! | Glovo</title>
+    <link rel="shortcut icon" href="img/Gl.png" type="image/png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ebc08401e1.js" crossorigin="anonymous"></script>
+
+</head>
+<body style="font-family: Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;">
+    <header>
+        <nav id="op" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            
+            <p  id="parrafo" style="margin-top: 30px; margin-left: 50px;"><img onclick="buscar()" id="lupa" src="img/search.svg" alt="">     ¿Qué necesitas?</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <form id="porfa" class="form-inline">
+                <button id="boton-1" type="button" data-toggle="modal" data-target="#registrar" onclick="registrarMod()">Registrarse</button>
+                <button onclick="iniciarSesion()" id="boton-2" type="button" >Iniciar Sesión</button>
+                
+              </form>
+            </div>
+          </nav>
+    </header>
+    <div style="background-color: #FFC244;">
+      <span>
+        <section>
+          <div class="container">
+            <div>
+              <div id="posicion">
+                <img src="img/logo.svg" alt="">
+              </div>
+              <h1 style="text-align: center; margin-top: 40px;">
+                <span style="color: white; font-size: 60px;">
+                  Lo que sea en
+                  <span style="color: #2abb9b; cursor: pointer;" >
+                    Tegucigalpa
+                    <img  src="img/drop.svg" alt="">
+                  </span>
+                  <span style="font-size: 48px;">Entrega en unos minutos</span>
+                </span>
+              </h1>
+            </div>
+              <section style="margin-top: 60px;">
+                <div id="local" class="row" style="margin-left: 140px;">
+                  
+                </div>
+                
+              </section>
+          </div>
+        </section>
+      </span>
+      <img style="margin-top: 80px;" src="img/curve.svg" alt="">
+      
+
+    </div>
+    <div>
+      <div style="text-align: center; font-size: 2em; color: black; font-weight: 600;">Lo más destacado en tu ciudad</div>
+      <p style="font-size: 18px; color: #9b9b9b; text-align: center;">Descubre las tiendas más solicitadas y pídenos que te entreguemos lo que desees.</p>
+    </div>
+    <div class="container-fluid">
+      <div  id="tienda" class="row">
+        
+        
+      </div>
+    </div>
+
+    <div  style="margin-top: 80px; background-image: url(img/fondo-image.webp), linear-gradient(90deg,  rgb(255, 255, 255), rgb(255, 194, 68));  height: 400px;" class="row imagen-div-fondo" style="position: relative; ">
+      
+      <div >
+        
+        <img style="margin-top: -35px; margin-left: 45px;" id="telefono" src="img/pagina2.webp">
+      </div>
+      <div style="display: block;" >
+        <h2 id="texto-pag-2">
+          <span style="margin-left: -35px;">Sigue tus entregas</span><br>
+          <span>
+            con la
+            <span style="color: #2abb9b;">Glovo App</span>
+          </span>
+        </h2>
+        <p id="progreso">
+          <span>
+            Ver el progreso de tus entregas
+          </span><br>
+          <span style="margin-left: 15px;">en tiempo real y donde quieras</span>
+        </p>
+        <div id="appstore">
+          <a href="https://www.apple.com/la/ios/app-store/">
+            <img id="enlaces-store" src="img/App-store.svg" >
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.glovo">
+            <img id="enlaces-store" src="img/play-store.svg" >
+          </a>
+        </div>
+        
+      </div>
+        
+      
+    </div>
+    <div id="principal-negocio">
+      <div class="container div-negocio"> 
+        <div class="row">
+          <div class="espacio col-8" >
+              <div style="margin-left: 57px;">
+                <img style="max-width: 100%; margin-bottom: 15px;" src="img/negocio.svg" alt="">
+              </div>
+              <div id="texto-ne">
+                La mejor manera de planificar y organizar las entregas de tu negocio.
+              </div>
+              <div style="margin-left: 57px;">
+                <a id="buton-selec" href="Pagina_negocio/negocio.html">Empezar</a>
+              </div>
+              
+          </div>
+          <div class="espacio-2 col-4" style="background-image: url(img/2.png);">
+            <img style="margin-left: -40px;" src="img/centro-pag-3.svg">
+      
+          </div> 
+        </div> 
+      </div>
+      
+    </div>
+    <div style="margin-top: 50px; margin-left: 30px;">
+      <div style="color: black; font-size: 36px; font-weight: 600; ">
+        ¡Estamos construyendo Glovo juntos!
+      </div>
+      <div class="container-fluid">
+        <div id="repartir" class="row">
+          
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <img style="background-color: #303030; transform: rotate(180deg);  margin-top: 50px;" src="img/curve.svg" alt="">
+        <div style="background-color: #303030;" class="container-fluid">
+          <div class="row">
+            <div class="col-2">
+              <img src="img/glovo.svg" alt=""><br>
+              <a style="margin-top: 18px; color: white; text-decoration: none;" href="">Sobre nosotros</a>
+          </div>
+          <div class="col-2">
+            <div style="color: #4a4a4a;">Únete a nosotros</div>
+            <a style="color: white; text-decoration: none" href="">Carreras</a>
+            <a style="color: white; text-decoration: none" href="">Establecimientos asociados</a>
+            <a style="color: white; text-decoration: none" href="">Repartidores</a><br>
+            <a style="color: white; text-decoration: none" href="">Glovo Business</a>
+        </div>
+        <div class="col-2">
+            <div style="color: #4a4a4a;">Ayuda</div>
+            <a style="color: white; text-decoration: none" href="">Preguntas Frecuentes</a>
+            <a style="color: white; text-decoration: none" href="">Contáctanos</a>
+        </div>
+        <div class="col-2">
+            <div style="color: #4a4a4a;">Legal</div>
+            <a style="color: white; text-decoration: none" href="">Términos y condiciones</a><br>
+            <a style="color: white; text-decoration: none" href="">Politica de privacidad</a><br>
+            <a style="color: white; text-decoration: none" href="">Política de Cookies</a>
+        </div>
+        <div class="col-2">
+            <div style="color: #4a4a4a;">Síguenos</div>
+            <a style="color: white; text-decoration: none" href="">Facebook</a><br>
+            <a style="color: white; text-decoration: none" href="">Twitter</a><br>
+            <a style="color: white; text-decoration: none" href="">Instagram</a>
+        </div>
+        
+
+          </div>
+          <div style="height: 180px;">
+            <div style="margin-top: 50px;">
+                <div>
+                    <input id="input-footer"  type="text" placeholder="Language" value="Español (Internacional)">
+                    <span>
+                        <span>
+                            <i>
+                               <img src="img/drop.svg" alt="">
+                            </i>
+                        </span>
+                    </span>
+                
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      
+    
+    </footer> 
+
+
+
+    <!-- Modal -->
+<div class="modal fade" id="registrar" tabindex="-1" role="dialog" aria-labelledby="registrarLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="registrarLabel">Regístrate en Glovo</h2>
+        <h2 class="modal-title" id="nueva-modal">Iniciar sesión en Glovo</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div style="margin-left: auto; margin-right: auto;" class="modal-body">
+        <a href="http://www.facebook.com"><button id="face-boton" type="button"><img src="img/facebook.svg" alt="">Facebook</button></a>
+        
+      </div>
+      <div id="o" style="text-align: center;">o</div>
+      <form class="form-iniciar">
+        <div id="div-nombre" style="margin-left: 100px; margin-top: 20px;">
+          <img style="margin-bottom: -50px; margin-left: -25px;" src="img/perfil.svg" alt="">
+          <input id="nombre" type="text" placeholder="Nombre" required>
+          
+        </div>
+        <div style="margin-left: 100px; margin-top: 20px;">
+          <img style="    margin-bottom: -78px; margin-left: -27px;" id="img-correo" src="img/correo.svg" alt="">
+          <input class="input-error input-succes correo" id="correo" type="text" autocomplete="off" placeholder="Correo Electronico" required>
+        </div>
+        <div style="margin-left: 100px; margin-top: 20px;">
+          <img style="    margin-bottom: -70px; margin-left: -25px;" id="img-candado" src="img/candado.svg">
+          <input class="contrasena" id="contrasena" type="password" autocomplete="off" placeholder="Contraseña" required>
+          <img style="margin-top: -40px; margin-left: 270px" id="img-mostrar" src="img/mostrar.svg">
+          <a id="olvidar" href="modalContraseña()" onclick="modalContraseña()">¿Olvidaste tu contraseña?</a>
+        </div>
+        <button class="no-visible" style="margin-left: 120px; " id="boton-3" type="button" data-toggle="modal" data-target="#terminos-cond" onclick="guardarRegistro()" >Regístrate con tu e-mail</button>
+        <p id="errro-p" style="display: none;"></p>
+        <button style="margin-left: 120px; " id="Iniciar-email" type="button" onclick="login()" >Iniciar sesión con e-mail</button>
+        
+      </form>
+      <div id="cuenta">
+        ¿Ya tienes una cuenta?
+        <a style="color: #2abb9b; text-decoration: none; font-weight: 400; font-size: 14px; cursor: pointer;" onclick="abreSesion()">Iniciar sesión</a>
+      </div>
+      <div id="terminos">
+        Al registrarte con nosotros, aceptas nuestros
+        <a  id="enlace" href="">Terminos de servicio</a>
+        y
+        <a id="enlace" href="">Políticas de Privacidad</a>
+      </div>
+      <div id="nuevo">
+        ¿Nuevo en glovo?
+        <a style="color: #2abb9b; text-decoration: none; font-weight: 400; font-size: 14px; cursor: pointer;" onclick="abreRegistro()" >Regístrate</a>
+      </div>
+      
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal-Registrate -->
+<div class="modal fade" id="terminos-cond" tabindex="-1" aria-labelledby="terminos-condLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="terminos-mod" style="text-align: center;">
+          <h1 style="margin-top: -10px; margin-bottom: 30px;">Términos y Condiciones y Política de Privacidad</h1>
+          <img src="img/escudo.svg">
+          <div style="font-size: 18px; margin: 20px;">
+            Usamos los datos de clientes para 
+            mejorar la experiencia de nuestro 
+            servicio y ofrecer promociones adecuadas.
+          </div>
+          <div style="font-size: 18px; margin: 20px;">
+            Para continuar acepta los 
+            <a style="color: #4a4a4a;" href="">Términos y condiciones</a>
+            , 
+            <a style="color: #4a4a4a;" href="">la Política de privacidad de datos</a>
+             y la
+            <a style="color: #4a4a4a;" href="">Política de Cookies.</a>
+          </div>
+          <div style="margin-left: auto; margin-right: auto;" id="div-terminos">Continuar y registrarse</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+</html>
+

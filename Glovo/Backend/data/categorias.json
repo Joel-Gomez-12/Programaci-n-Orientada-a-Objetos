@@ -1,0 +1,27 @@
+[
+  {
+    "imagen": "img/farmacia.webp",
+    "negocio": "Farmacia",
+    "enlace": "Pagina_farmacia/farmacia.html"
+  },
+  {
+    "imagen": "img/tiendas.webp",
+    "negocio": "Regalos y más",
+    "enlace": "Pagina_regalos/regalos.html"
+  },
+  {
+    "imagen": "img/carrito.webp",
+    "negocio": "Super & Licores",
+    "enlace": "Pagina_licores/licores.html"
+  },
+  {
+    "imagen": "img/moto.webp",
+    "negocio": "Envíos Express",
+    "enlace": ""
+  },
+  {
+    "imagen": "img/comida.webp",
+    "negocio": "Comida",
+    "enlace": ""
+  }
+]

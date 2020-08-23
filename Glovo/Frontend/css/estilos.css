@@ -1,0 +1,406 @@
+#op{
+    background-color: #FFC244!important;
+}
+#parrafo{
+    cursor: pointer;
+    color: white;
+}
+#boton-1{
+    background-color: #00A082;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,.1);
+    padding: 13.5px 20px;
+    line-height: 16px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    max-width: 340px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+#boton-2{
+    background-color: white;
+    color: #4a4a4a;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,.1);
+    padding: 13.5px 20px;
+    margin-left: 10px;
+    line-height: 16px;
+    font-weight: 700;
+    border: none;
+    font-family: inherit;
+    max-width: 340px;
+}
+#posicion{
+    text-align: center;
+    
+}
+#local{
+    font-weight: 300px;
+}
+#casillas{
+    background-color: white;
+    user-select: none;
+    height: 114.2px;
+    width: 114.2px;
+    box-shadow: none;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+    margin: 12.5px;
+    cursor: pointer;
+}
+#imagenes{
+    height: 60px;
+    margin-top: 5px;
+    flex-direction: column;
+}
+#face-boton{
+    border-radius: 100px;
+    background-color: #2D4373;
+    color: white;
+   
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: inherit;
+    padding: 13px 60px;
+    display: flex;
+    border: none;
+    height: 50px;
+}
+#nombre{
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    
+    width: 100%;
+    outline: 0px;
+}
+.form-iniciar{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.correo{
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    height: 40px;
+    width: 100%;
+    outline: 0px;
+    background: none;
+    padding-top: 20px;
+}
+.lbl-correo{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.text-correo{
+    position: absolute;
+    bottom: 265px;
+    left: 100px;
+    color: #9b9b9b;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.correo:focus +.lbl-correo .text-correo, .correo:valid +.lbl-correo .text-correo{
+    transform: translateY(-150%);
+    font-size: 14px;
+    
+
+}
+.contrasena{
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    height: 40px;
+    width: 100%;
+    outline: 0px;
+    background: none;
+    padding-top: 20px;
+}
+.lbl-contr{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.text-contr{
+    position: absolute;
+    bottom: 180px;
+    left: 100px;
+    color: #9b9b9b;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+#boton-3{
+    background-color:   #00A082;
+    color: white;
+    border-radius: 100px;
+    margin: 30px;
+    max-width: 280px;
+    font-size: 16px;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-family: inherit;
+    border: none;
+}
+#Iniciar-email{
+    background-color:   #00A082;
+    color: white;
+    border-radius: 100px;
+    margin: 30px;
+    max-width: 280px;
+    font-size: 16px;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-family: inherit;
+    border: none;
+}
+#errro-p{
+    display: block;
+    color: #f66;
+    font-size: 14px;
+    margin: 10px;
+    padding-top: 20px;
+    margin-left: 65px;
+}
+#cuenta{
+    margin: 30px 0 0;
+    width: 100%;
+    text-align: center;
+    color: #9b9b9b;
+}
+#terminos{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+#enlace{
+    font-weight: 400;
+    color: #2abb9b;
+    text-decoration: none;
+    transition: .3s;
+    cursor: pointer;
+}
+.modal-title{
+    color: black;
+    text-align: center!important;
+    font-size: 28px;
+    margin-left: 105px;
+    
+}
+#imagen-card{
+    
+    height: 168px;
+    object-fit: cover;
+}
+#pagina-2{
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+#parrafo-2{
+    color: #9b9b9b;
+    text-align: center;
+    font-weight: 300;
+}
+#fondo{
+    width: 100%;
+    position: absolute;
+}
+#texto-pag-2{
+    margin-top: 55px;
+    font-size: 34px;
+    line-height: 30px;
+    margin: 110px 0 0;
+}
+#negocios{
+    margin-bottom: 20px;
+}
+#principal-negocio{
+    padding-top: 70px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+.div-negocio{
+    background-color: #4a4a4a;
+    border-radius: 8px;
+}  
+    
+    
+
+#buton-selec{
+    background: linear-gradient(307deg,#fbc033,#fcd33c);
+    box-sizing: border-box;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.12);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 17px 80px;
+    font-size: 16px;
+    height: 50px;
+    width: 280px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.espacio-2{
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+#texto-ne{
+    margin-left: 30px;
+    font-size: 16px;
+    color: white;
+    line-height: 1.56;
+    margin-left: 57px;
+    margin-bottom: 26px;
+}
+.card-title{
+    font-size: 26px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-align: center;
+    color: #000;
+    line-height: 24px!important;
+    font-weight: 600;
+}
+#repar-text{
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #9b9b9b;
+    line-height: 1.1em;
+    text-align: center;
+}
+.card-text{
+    color: #4a4a4a  ;
+    line-height: 21px;
+    margin-bottom: 24px;
+}
+.btn-primary{
+    background-color: #6a817c!important;
+    padding: 10px 25px!important;
+    width: 100%!important;
+    color: white!important;
+    font-weight: 700!important;
+    font-size: 18px!important;
+    border-radius: 100px!important;
+    text-align: center!important;
+    border: none!important;
+}
+#curva-final{
+    background-color: #303030;
+    transform: rotate(180deg);
+    margin-top: 50px;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transform: rotate(180deg);
+    
+}
+#enlace-final{
+    text-decoration: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 14px;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.input-buscar{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -120px;
+}
+
+#lupa-input{
+    width: 38px;
+    height: 42px;
+    top: 20px;
+    background-size: cover;
+    display: block;
+    position: absolute;
+}
+
+.input-busqueda{
+    font-size: 50px;
+    padding-right: 60px;
+    border-color: #ffc244!important;
+    padding: 0 67px 0 70px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 900px;
+}
+#olvidar{
+    font-size: 14px;
+    font-weight: 400;
+    color: #2abb9b;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#nuevo{
+    text-align: center;
+    color: #9b9b9b;;
+}
+#input-footer{
+    border: none;
+    font-size: 13px;
+    background-color: #303030;
+    color: white;
+    text-transform: uppercase;
+    height: 46px;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    padding: 0 15px;
+}
+#div-terminos{
+    max-width: 340px;
+    padding: 13.5px 20px;
+    font-size: 14px;
+    margin-top: 40px!important;
+    font-weight: 700;
+    background-color: #2abb9b;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+}
+.ovalo-login{
+    margin: 0 1px;
+    border-radius: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    display: inline-block;
+}

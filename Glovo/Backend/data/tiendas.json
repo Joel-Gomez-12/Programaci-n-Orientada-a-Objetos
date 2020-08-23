@@ -1,0 +1,14 @@
+[
+  { "imagen": "img/Pizza-card.webp", "nombre": "Pizza Hut", "enlace": "Pagina_pizza/pizza.php" },
+  { "imagen": "img/Pupusa-card.jpg", "nombre": "Pupuseria Camino del Valle" },
+  { "imagen": "img/walmart-card.webp", "nombre": "Walmart" },
+  { "imagen": "img/Dennys-card.webp", "nombre": "Denny´ s" },
+  { "imagen": "img/Expresso-card.webp", "nombre": "Espresso Americano" },
+  { "imagen": "img/Churcher-chiken.jpg", "nombre": "Church´s Chicken" },
+  { "imagen": "img/camperp-card.webp", "nombre": "Pollo Campero" },
+  { "imagen": "img/campesino-card.webp", "nombre": "Pollo Campesino" },
+  { "imagen": "img/popeyes-card.webp", "nombre": "Popeyes" },
+  { "imagen": "img/wndys-card.webp", "nombre": "Wendy´ s" },
+  { "imagen": "img/macdonals-card.webp", "nombre": "McDonald´ s" },
+  { "imagen": "img/kfc.webp", "nombre": "KFC" }
+]

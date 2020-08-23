@@ -1,0 +1,14 @@
+#negocio{
+    height: 600px;
+    background-image: url(../img/Fondo_negocio.webp);
+}
+#bt-empieza{
+    background-color: #fcd33c;
+    color: white;
+    width: 280px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 450px;
+    cursor: pointer;
+    border-radius: 10px;
+}

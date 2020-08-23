@@ -1,0 +1,42 @@
+.encabezado{
+    width: 100%;
+    padding: 35px 0;
+    z-index: 5;
+    position: relative;
+    height: 115px;
+    box-sizing: border-box;
+}
+#bot_gre1{
+    background-color: #00A082;
+    color: white;
+    border-radius: 100px!important;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,.1);
+    padding: 13.5px 20px;
+    line-height: 16px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    max-width: 340px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    font-family: inherit;
+    
+}
+#bot_gre2{
+    background-color: white;
+    color: #4a4a4a;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,.1);
+    padding: 13.5px 20px;
+    margin-left: 10px;
+    line-height: 16px;
+    font-weight: 700;
+    border: none;
+    font-family: inherit;
+    max-width: 340px;
+}

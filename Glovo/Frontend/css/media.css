@@ -1,0 +1,83 @@
+@media (max-width: 575.98px) {
+    #telefono{
+        margin-top: -20px!important;
+        margin-left: 25px!important;
+        height: 288px!important;
+    }
+    #texto-pag-2{
+        
+        margin-top: -60px!important;
+        font-size: 25px!important;
+        line-height: 30px!important;
+        text-align: center!important;
+    }  
+    #progreso{
+        font-size: 15px;
+        text-align: center;
+    }  
+    #appstore{
+        margin-left: 75px;
+    }
+    .form-inline{
+        margin-left: 180px;
+    }
+    .imagen-div-fondo{
+        flex-wrap: wrap;
+        width: 374px!important;
+        height: 544px!important;
+    }
+    img{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .imagen-div-fondo{
+        flex-wrap: wrap;
+        
+        height: 230px!important;
+    }
+    #telefono{
+        margin-top: -20px!important;
+        margin-left: 25px!important;
+        height: 288px!important;
+    }
+    #texto-pag-2{
+        
+        margin-top: -246px!important;
+        font-size: 25px!important;
+        line-height: 30px!important;
+        text-align: center!important;
+        margin-left: 270px;
+    }
+    #progreso{
+        font-size: 15px;
+        margin-left: 300px;
+    }
+    #enlaces-store{
+        height: 35px;
+    } 
+    #appstore{
+        margin-top: 60px;
+        margin-left: 320px;
+    }  
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .form-inline{
+        margin-left: 600px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .form-inline{
+        margin-left: 400px;
+    }
+    #boton-1{
+        margin-left: 60px;
+    }
+    
+}
+
+@media (max-width: 1024px){
+.espacio{
+    margin-top: 24px;
+    }
+}
